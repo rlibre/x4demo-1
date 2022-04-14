@@ -1,0 +1,49 @@
+// out: false
+@import "css/reset.less";
+@import "css/theme.less";
+
+@import "css/fonts/fontawesome-pro-6.0.0-web/less/fontawesome.less";
+@import "css/fonts/fontawesome-pro-6.0.0-web/less/regular.less";
+
+@def-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+@def-font-size: 13px;
+@base-color: #266888;
+@selection-color: @COBALT2;
+@error-color: #b92a09;
+@success-color: #0A6640;
+@focus-color: @selection-color;
+@form-color: @base-color; 
+
+@import "../../x4/x4.less";
+
+
+:root {
+	// yes i do that :)
+	--color-neutral-950: #ededed;
+    --color-neutral-900: #d9d9d9;
+    --color-neutral-800: #b2b2b2;
+    --color-neutral-700: #999999;
+    --color-neutral-600: #808080;
+    --color-neutral-500: #595959;
+    --color-neutral-400: #454545;
+    --color-neutral-300: #363636;
+    --color-neutral-200: #262626;
+    --color-neutral-100: #121212;
+}
+
+
+.x-main-frame {
+	background-color: var(--color-neutral-100);
+}
+
+.x-header {
+	height: 4rem;
+	background-color: var(--color-neutral-300);
+	align-items: center;
+	padding: 1rem;
+
+	#title {
+		color: white;
+		padding: 0 1rem;
+	}
+}

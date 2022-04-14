@@ -1,0 +1,30 @@
+{
+  "name": "x4",
+  "version": "1.0.0",
+  "description": "X4 framework demo",
+  "scripts": {
+    "build-dev": "parcel serve ./src/index.html --dist-dir ./public --no-source-maps",
+    "build-prod": "parcel build ./src/index.html --dist-dir ./public --no-cache --no-scope-hoist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rlibre/x4js.git"
+  },
+  "keywords": [
+    "x4",
+    "typescript",
+    "framework"
+  ],
+  "author": "Etienne Cochard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rlibre/x4js/issues"
+  },
+  "homepage": "https://github.com/rlibre/x4js#readme",
+  "devDependencies": {
+    "@parcel/config-default": "^2.4.1",
+    "@parcel/transformer-less": "^2.4.1",
+    "parcel-reporter-static-files-copy": "^1.3.4",
+    "parcel-resolver-ignore": "^2.0.0"
+  }
+}
